@@ -10,6 +10,8 @@ RestAssured - API automation
 Selenium - Web Automation
 
 
+Before running, make sure to Clean and Compile in Maven.
+
 please let me know if you have questions. 
 
 Thank you :)
