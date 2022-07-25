@@ -11,17 +11,7 @@ import org.json.JSONObject;
 
 public class APIHelper {
 
-    /*public static <T> T readJson(String explrObject, Class<T> tClass) {
-        T response = null;
-        try {
-            ObjectMapper mapper = new ObjectMapper();
-            response = mapper.readValue(explrObject, tClass);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return response;
-    }*/
+    
     public static <T> T jsonToPojo(Response response , Class<T> tClass) {
         String explrObject = response.getBody().asPrettyString();
         T t = null;
